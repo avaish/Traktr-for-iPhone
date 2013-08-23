@@ -1,5 +1,5 @@
 //
-//  TraktrViewController.h
+//  TraktrTabBarController.h
 //  Traktr for iPhone
 //
 //  Created by Atharv Vaish on 8/23/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TraktrViewController : UIViewController
+@interface TraktrTabBarController : UITabBarController
 
 @end

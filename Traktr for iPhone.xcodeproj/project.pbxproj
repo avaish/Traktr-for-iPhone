@@ -14,13 +14,15 @@
 		453FFC1B17C7650D00FA4FF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 453FFC1A17C7650D00FA4FF2 /* main.m */; };
 		453FFC1F17C7650D00FA4FF2 /* TraktrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 453FFC1E17C7650D00FA4FF2 /* TraktrAppDelegate.m */; };
 		453FFC2217C7650D00FA4FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453FFC2017C7650D00FA4FF2 /* Main.storyboard */; };
-		453FFC2517C7650D00FA4FF2 /* TraktrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453FFC2417C7650D00FA4FF2 /* TraktrViewController.m */; };
 		453FFC2717C7650D00FA4FF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453FFC2617C7650D00FA4FF2 /* Images.xcassets */; };
 		453FFC2E17C7650D00FA4FF2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453FFC2D17C7650D00FA4FF2 /* XCTest.framework */; };
 		453FFC2F17C7650D00FA4FF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453FFC0E17C7650D00FA4FF2 /* Foundation.framework */; };
 		453FFC3017C7650D00FA4FF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453FFC1217C7650D00FA4FF2 /* UIKit.framework */; };
 		453FFC3817C7650D00FA4FF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 453FFC3617C7650D00FA4FF2 /* InfoPlist.strings */; };
 		453FFC3A17C7650D00FA4FF2 /* Traktr_for_iPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 453FFC3917C7650D00FA4FF2 /* Traktr_for_iPhoneTests.m */; };
+		453FFC4517C7665500FA4FF2 /* TraktrTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453FFC4417C7665500FA4FF2 /* TraktrTabBarController.m */; };
+		453FFC4B17C7689F00FA4FF2 /* TraktrLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453FFC4A17C7689F00FA4FF2 /* TraktrLibraryController.m */; };
+		453FFC4E17C7694B00FA4FF2 /* TraktrLibraryTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453FFC4D17C7694B00FA4FF2 /* TraktrLibraryTableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		453FFC0B17C7650D00FA4FF2 /* Traktr for iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traktr for iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		453FFC0B17C7650D00FA4FF2 /* Traktr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traktr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		453FFC0E17C7650D00FA4FF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		453FFC1017C7650D00FA4FF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		453FFC1217C7650D00FA4FF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -45,14 +47,18 @@
 		453FFC1D17C7650D00FA4FF2 /* TraktrAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraktrAppDelegate.h; sourceTree = "<group>"; };
 		453FFC1E17C7650D00FA4FF2 /* TraktrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraktrAppDelegate.m; sourceTree = "<group>"; };
 		453FFC2117C7650D00FA4FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		453FFC2317C7650D00FA4FF2 /* TraktrViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraktrViewController.h; sourceTree = "<group>"; };
-		453FFC2417C7650D00FA4FF2 /* TraktrViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraktrViewController.m; sourceTree = "<group>"; };
 		453FFC2617C7650D00FA4FF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		453FFC2C17C7650D00FA4FF2 /* Traktr for iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Traktr for iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		453FFC2D17C7650D00FA4FF2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		453FFC3517C7650D00FA4FF2 /* Traktr for iPhoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Traktr for iPhoneTests-Info.plist"; sourceTree = "<group>"; };
 		453FFC3717C7650D00FA4FF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		453FFC3917C7650D00FA4FF2 /* Traktr_for_iPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Traktr_for_iPhoneTests.m; sourceTree = "<group>"; };
+		453FFC4317C7665500FA4FF2 /* TraktrTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraktrTabBarController.h; sourceTree = "<group>"; };
+		453FFC4417C7665500FA4FF2 /* TraktrTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraktrTabBarController.m; sourceTree = "<group>"; };
+		453FFC4917C7689F00FA4FF2 /* TraktrLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TraktrLibraryController.h; path = ../TraktrLibraryController.h; sourceTree = "<group>"; };
+		453FFC4A17C7689F00FA4FF2 /* TraktrLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TraktrLibraryController.m; path = ../TraktrLibraryController.m; sourceTree = "<group>"; };
+		453FFC4C17C7694B00FA4FF2 /* TraktrLibraryTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraktrLibraryTableController.h; sourceTree = "<group>"; };
+		453FFC4D17C7694B00FA4FF2 /* TraktrLibraryTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraktrLibraryTableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +98,7 @@
 		453FFC0C17C7650D00FA4FF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				453FFC0B17C7650D00FA4FF2 /* Traktr for iPhone.app */,
+				453FFC0B17C7650D00FA4FF2 /* Traktr.app */,
 				453FFC2C17C7650D00FA4FF2 /* Traktr for iPhoneTests.xctest */,
 			);
 			name = Products;
@@ -112,11 +118,15 @@
 		453FFC1417C7650D00FA4FF2 /* Traktr for iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				453FFC4917C7689F00FA4FF2 /* TraktrLibraryController.h */,
+				453FFC4A17C7689F00FA4FF2 /* TraktrLibraryController.m */,
 				453FFC1D17C7650D00FA4FF2 /* TraktrAppDelegate.h */,
 				453FFC1E17C7650D00FA4FF2 /* TraktrAppDelegate.m */,
 				453FFC2017C7650D00FA4FF2 /* Main.storyboard */,
-				453FFC2317C7650D00FA4FF2 /* TraktrViewController.h */,
-				453FFC2417C7650D00FA4FF2 /* TraktrViewController.m */,
+				453FFC4C17C7694B00FA4FF2 /* TraktrLibraryTableController.h */,
+				453FFC4D17C7694B00FA4FF2 /* TraktrLibraryTableController.m */,
+				453FFC4317C7665500FA4FF2 /* TraktrTabBarController.h */,
+				453FFC4417C7665500FA4FF2 /* TraktrTabBarController.m */,
 				453FFC2617C7650D00FA4FF2 /* Images.xcassets */,
 				453FFC1517C7650D00FA4FF2 /* Supporting Files */,
 			);
@@ -169,7 +179,7 @@
 			);
 			name = "Traktr for iPhone";
 			productName = "Traktr for iPhone";
-			productReference = 453FFC0B17C7650D00FA4FF2 /* Traktr for iPhone.app */;
+			productReference = 453FFC0B17C7650D00FA4FF2 /* Traktr.app */;
 			productType = "com.apple.product-type.application";
 		};
 		453FFC2B17C7650D00FA4FF2 /* Traktr for iPhoneTests */ = {
@@ -200,6 +210,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Atharv Vaish";
 				TargetAttributes = {
+					453FFC0A17C7650D00FA4FF2 = {
+						DevelopmentTeam = WFA83R9TQA;
+					};
 					453FFC2B17C7650D00FA4FF2 = {
 						TestTargetID = 453FFC0A17C7650D00FA4FF2;
 					};
@@ -251,8 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				453FFC1F17C7650D00FA4FF2 /* TraktrAppDelegate.m in Sources */,
-				453FFC2517C7650D00FA4FF2 /* TraktrViewController.m in Sources */,
+				453FFC4E17C7694B00FA4FF2 /* TraktrLibraryTableController.m in Sources */,
+				453FFC4B17C7689F00FA4FF2 /* TraktrLibraryController.m in Sources */,
 				453FFC1B17C7650D00FA4FF2 /* main.m in Sources */,
+				453FFC4517C7665500FA4FF2 /* TraktrTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,10 +390,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Traktr for iPhone/Traktr for iPhone-Prefix.pch";
 				INFOPLIST_FILE = "Traktr for iPhone/Traktr for iPhone-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Traktr;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -388,10 +406,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Traktr for iPhone/Traktr for iPhone-Prefix.pch";
 				INFOPLIST_FILE = "Traktr for iPhone/Traktr for iPhone-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Traktr;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
